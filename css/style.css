@@ -1,0 +1,110 @@
+
+span > a {
+  text-decoration: none;
+}
+a {
+  color:inherit;
+}
+
+a:hover, a:link, a:active
+{
+    text-decoration: none;
+    color:#666666;
+}
+
+#jumbo-one {
+  background: url("../images/yoga-bkgrnd_2.jpg");
+  height:750px;
+  margin-bottom:0px;
+  padding-top:0px;
+}
+
+ .blurb, .sub-title-font, .title-font {
+  font-family: 'Josefin Sans', sans-serif;   
+}
+
+.title-font{
+  font-size: 55px;
+  font-weight:400; 
+  color: #a7b742;   
+}
+
+.sub-title-font{
+  font-size: 35px;
+  font-weight:700; 
+  color: #3a3a3c;
+  opacity:0.75;
+}
+
+.blurb{
+  font-weight: 700; 
+  color: #3a3a3c;
+  /*opacity:0.9;*/
+}
+
+.centered {
+  text-align:center;
+}
+
+#logo-div {  
+  border-color:#3a3a3c;
+  margin-top:15px;
+}
+
+.highlight {
+  color:#a7b742;
+  font-weight: 700;
+}
+
+.icon {
+  margin-right:10px;
+}
+
+#time-btn, #contact-btn {
+  margin-top:25px;
+  width:200px;
+  background-color: #3a3a3c;
+  border-color:#3a3a3c;
+}
+
+#time-btn:hover, #contact-btn:hover {
+  border-color:#666666;
+  color:#666666;
+}
+
+#jumbo-two {
+  margin-top:0px;
+  background-color:#fff;
+}
+
+#the-img {
+  margin-top:-165px;
+}
+
+#jumbo-two-title {
+  -webkit-border-top-left-radius: 15px;
+  -webkit-border-top-right-radius: 15px;
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topright: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+  margin-top:-100px; 
+  background-color:#3a3a3c; 
+  height: 100px; 
+  padding-top: 0px;
+  font-family: 'Josefin Sans', sans-serif;  
+  font-size: 28px;
+  font-weight:700; 
+  color:#fff;
+}
+
+#jumbo-two {
+  background-color:#3a3a3c;
+  border-color:#3a3a3c;
+  height:500px;
+}
+
+.class-info {
+  height:300px;
+}

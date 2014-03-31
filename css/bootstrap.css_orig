@@ -1,0 +1,161 @@
+/*!
+ * Bootstrap @VERSION
+ *
+ * Copyright 2011 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ * Date: @DATE
+ */
+.container {
+  width: 710px;
+  margin-left: auto;
+  margin-right: auto;
+  zoom: 1;
+}
+.container:before, .container:after {
+  display: table;
+  content: "";
+  zoom: 1;
+}
+.container:after {
+  clear: both;
+}
+.row {
+  zoom: 1;
+  margin-left: -10px;
+}
+.row:before, .row:after {
+  display: table;
+  content: "";
+  zoom: 1;
+}
+.row:after {
+  clear: both;
+}
+.row > [class*="span"] {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+}
+.span1 {
+  width: 70px;
+}
+.span2 {
+  width: 150px;
+}
+.span3 {
+  width: 230px;
+}
+.span4 {
+  width: 310px;
+}
+.span5 {
+  width: 390px;
+}
+.span6 {
+  width: 470px;
+}
+.span7 {
+  width: 550px;
+}
+.span8 {
+  width: 630px;
+}
+.span9 {
+  width: 710px;
+}
+.span10 {
+  width: 790px;
+}
+.span11 {
+  width: 870px;
+}
+.span12 {
+  width: 950px;
+}
+.span13 {
+  width: 1030px;
+}
+.span14 {
+  width: 1110px;
+}
+.span15 {
+  width: 1190px;
+}
+.span16 {
+  width: 1270px;
+}
+.span17 {
+  width: 1350px;
+}
+.span18 {
+  width: 1430px;
+}
+.span19 {
+  width: 1510px;
+}
+.span20 {
+  width: 1590px;
+}
+.span21 {
+  width: 1670px;
+}
+.span22 {
+  width: 1750px;
+}
+.span23 {
+  width: 1830px;
+}
+.span24 {
+  width: 1910px;
+}
+.row > .offset1 {
+  margin-left: 90px;
+}
+.row > .offset2 {
+  margin-left: 170px;
+}
+.row > .offset3 {
+  margin-left: 250px;
+}
+.row > .offset4 {
+  margin-left: 330px;
+}
+.row > .offset5 {
+  margin-left: 410px;
+}
+.row > .offset6 {
+  margin-left: 490px;
+}
+.row > .offset7 {
+  margin-left: 570px;
+}
+.row > .offset8 {
+  margin-left: 650px;
+}
+.row > .offset9 {
+  margin-left: 730px;
+}
+.row > .offset10 {
+  margin-left: 810px;
+}
+.row > .offset11 {
+  margin-left: 890px;
+}
+.row > .offset12 {
+  margin-left: 970px;
+}
+.span-one-third {
+  width: 300px;
+}
+.span-two-thirds {
+  width: 620px;
+}
+.row > .offset-one-third {
+  margin-left: 340px;
+}
+.row > .offset-two-thirds {
+  margin-left: 660px;
+}
