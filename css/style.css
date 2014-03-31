@@ -71,8 +71,34 @@ a:hover, a:link, a:active
   color:#666666;
 }
 
+#jumbo-two-tmp {
+  text-align: center;
+}
+
+#jumbo-two-tmp-container {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+#classes-description {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+#view-classes-text {
+  font-size: 2em;
+}
+
+#thumbnail-1 {
+  margin: 1em;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+
 #jumbo-two {
-  margin-top:0px;
+  margin-top:300px;
   background-color:#fff;
 }
 
