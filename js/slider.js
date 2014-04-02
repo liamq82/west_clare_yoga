@@ -5,7 +5,7 @@ Slider.array = null;
 Slider.hideAllInactiveDivs = function() {
 	
 	if(!Slider.array) {
-		Slider.array = $('#slider div');
+		Slider.array = $('.slider-div');
 	}
 
 	$.each(Slider.array, function(index, object){
@@ -51,5 +51,5 @@ Slider.start = function() {
 }
 
 $(function() {
-	
+	Slider.start();
 });
