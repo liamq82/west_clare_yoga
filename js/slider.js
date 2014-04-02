@@ -16,6 +16,7 @@ Slider.hideAllInactiveDivs = function() {
 }
 
 Slider.toggleDivs = function(event){
+		$('.slider-button').unbind('click');
 		var newIndex = event.target.id - 1;
 		var oldIndex;
 
@@ -27,8 +28,7 @@ Slider.toggleDivs = function(event){
 		});
 
 		$(Slider.array[newIndex]).addClass("active");
-
-		Slider.moveDivsRight(oldIndex);
+		Slider.moveDivsRight(oldIndex);		
 	}
 
 
@@ -38,8 +38,11 @@ Slider.moveDivsRight = function (startPoint) {
 			
 		$.each(Slider.array, function(index, object){
 			if ($(object).hasClass("active")) {
-				$(object).toggle("slide", {direction: 'right'}, 1200);
-			}
+				$(object).toggle("slide", {direction: 'right'}, 1200, function() {
+					$('.slider-button').on('click', Slider.toggleDivs);
+				});
+
+			}			
 		});						
 	});
 }
