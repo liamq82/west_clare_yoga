@@ -111,7 +111,6 @@ a:hover, a:link, a:active
 }
 
 #jumbo-two {
-  margin-top:300px;
   background-color:#fff;
 }
 
@@ -138,9 +137,8 @@ a:hover, a:link, a:active
 }
 
 #jumbo-two {
-  background-color:#3a3a3c;
+  background-color: #3a3a3c;
   border-color:#3a3a3c;
-  height:500px;
 }
 
 .class-info {
@@ -149,4 +147,46 @@ a:hover, a:link, a:active
 
 .slider-div {
   height:400px;
+}
+
+.scrollme {
+  height: 500px;
+  width: 720px;
+  overflow: hidden;
+  padding-left: 8px;
+  border: 1px solid #999;
+}
+
+.class_description {
+  background-color: white;
+  float: left;
+  width: 720px;  
+}
+
+.horiz {
+  float: left;
+width: 720px;
+}
+
+.horiz2 {
+  float: left;
+  width: 720px;
+}
+
+.horiz3 {
+  float: left;
+  width: 720px;
+}
+
+.scrollme-x {
+  width: 3000px;
+}
+
+.left_text {
+  float: left;
+width: 180px;
+}
+
+.footer {
+  height:400px;  
 }
